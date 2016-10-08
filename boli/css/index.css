@@ -1,0 +1,44 @@
+﻿*{margin:0;padding:0;}
+body{font-size:12px;}
+ul{list-style: none;}
+a{color:white;text-decoration: none;}
+
+.page{width:1800px;margin:0 auto;}
+.header{width:1800px;height:30px;background:#000000;}
+.header-right{width:190px;height:30px;float:right;background:url("../images/boli-1.png") no-repeat -5px 1px;}
+.header-right li{float:left;width:30px;padding-left:30px;line-height: 30px;}
+.header-right li a{color:#d9c298;}
+hr{border:none;height:3px;border-top:3px solid #bca561;}
+
+.header-next{width:1800px;height:170px;background: #372114;float:left;}
+.logo{width:410px;height:95px;margin:0 auto;margin-top:30px;}
+
+.menu-con{clear:left;width:1800px;position: relative;}
+.menu{width:1196px;height:35px;background: #623f1f;position:absolute;top:-15px;left:300px;z-index:100;}
+.menu ul li{width:170px;height:35px;float:left;border-left:1px solid #1e1101;}
+.menu ul .l1{border:none;}
+.menu ul li a{color:#faf0b5;display:block;line-height: 35px;text-align: center;font-size:16px;}
+.menu ul li a.hover{background: #1e1101;}
+.child{display:none;background: #402605;opacity:0.5;filter:alpha(opacity=50);}
+.menu .child a:hover{background:#1e1101;}
+
+.banner{clear:left;width:1800px;height:707px;}
+
+.footer{width:1800px;height:90px;background: #29160f;display:table-cell;vertical-align: middle;}
+.footer-mid{width:370px;margin:0 auto;}
+.footer-mid p{color:white;padding:5px 0;}
+.footer-mid p a{padding:0 15px;}
+/*铂丽文化*/
+.culture{width:1010px;height:350px;padding-top:100px;margin:0 auto;}
+.culture-left{width:435px;height:350px;background: grey;float:left;}
+.culture-right{width:575px;height:350px;float:left;overflow:hidden;}
+.viewport{width:565px;height:350px;float:left;}
+.viewport p{padding:20px;font-size:16px;color:#FAF0B5;}
+.scrollbar{width:10px;height:350px;background:#645a41;float:right;}
+.track{width:8px;height:50px;background: #f9f0b5;}
+/*二级页面精品项目*/
+.banner-bg{background: url("../images/boli_3.jpg") no-repeat;}
+.list{width:1100px;height:580px;padding-top:50px;margin:0 auto;}
+.list ul li{float:left;width:300px;height:240px;margin-left:50px;margin-top:50px;position:relative;}
+.list-intro{width:300px;height:35px;position: absolute;bottom:0;background: #150a04;opacity:0.5;filter:alpha(opacity=50);}
+.list-intro p{height:35px;line-height: 35px;padding-left:20px;font-size:16px;color:#FAF0B5;}
